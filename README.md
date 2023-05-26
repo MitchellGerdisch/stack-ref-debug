@@ -5,10 +5,11 @@ This is a temporary repo to debug an issue.
 
 ## Preparation
 - stack1 and stack2 .csproj set up with `<PackageReference Include="Pulumi" Version="3.2.1" />`
-- `install_pulumi.sh --version 3.19.0` is run
-- Modify stack2/Program.cs to reference the stack1 stack in your environment.
+
 
 ## Steps
+- run `install_pulumi.sh --version 3.19.0`
+- Modify stack2/Program.cs to reference the stack1 stack in your environment.
 - cd stack1 and launch stack1
   - `pulumi up -y`
 - cd ../stack2 and launch stack2
