@@ -6,7 +6,6 @@ This is a temporary repo to debug an issue.
 ## Preparation
 - stack1 and stack2 .csproj set up with `<PackageReference Include="Pulumi" Version="3.2.1" />`
 
-
 ## Steps
 - run `install_pulumi.sh --version 3.19.0`
 - Modify stack2/Program.cs to reference the stack1 stack in your environment.
